@@ -24,12 +24,12 @@ Fancy Calculator Incorporated
 
 ROLES:
 Project Manager (In Name): Luke Reicherter
-Technical Lead Developer (In Name) (C++): Sam Aven
+To be determined: Sam Aven
 Scribe & Quality Assurance (QA) Lead: Ethan Le
 Designer: Ethan Cook
 Configuration (Version Control) Manager: Bryant Goseland
-Scribe: Tayah Brown
-Just here: Braden Chrisman
+To be determined: Tayah Brown
+To be determined: Braden Chrisman
 
 
 DETAILS:
