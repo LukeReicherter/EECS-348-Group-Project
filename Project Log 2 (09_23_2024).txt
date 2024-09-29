@@ -28,7 +28,7 @@ To be determined: Sam Aven
 Scribe & Quality Assurance (QA) Lead: Ethan Le
 Designer: Ethan Cook
 Configuration (Version Control) Manager: Bryant Goseland
-To be determined: Tayah Brown
+Tester: Tayah Brown
 To be determined: Braden Chrisman
 
 
