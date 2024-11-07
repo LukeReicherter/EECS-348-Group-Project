@@ -1,0 +1,31 @@
+﻿MEETING NOTES
+
+
+Team Meeting 10.28
+
+
+WHEN: Monday, October 28th @ 2:00 p.m.
+PURPOSE: Working on, and hopefully Finishing, the Software Architecture Document.
+ATTENDANCE: (four out of seven members) Ethan Le, Luke Reicherter, Tayah Brown, Bryant Goseland
+
+
+Sam Aven and Ethan Cook are unavailable due to class schedules being at the same time as the meeting.
+
+
+Braden Chrisman is unavailable on Mondays due to work conflicting with the meeting time.
+
+
+TEAM NAME:
+Fancy Calculator Incorporated
+
+
+DETAILS:
+
+
+1. Tayah Brown arrives first, having already found a spot in LEEP2 for the meeting.
+2. Bryant, Ethan Le, and Luke arrive next back-to-back within a few minutes of each other.
+3. Discussion over coding the project and working on the document begins.
+4. Group plans to begin coding after finishing the Software Architecture Document, hopefully.
+5. Group begins to work on the document at 2:06 p.m.
+6. Architectural Representation, Architectural Goals and Constraints, and Logical View were being worked on during this duration of time.
+7. The group agrees to end the meeting today at 2:40 p.m.
