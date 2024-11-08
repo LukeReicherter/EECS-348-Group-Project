@@ -17,11 +17,11 @@ A versatile arithmetic evaluator in C++. The software will take arithmetic expre
   * Numeric Constants recognizes and calculates numeric constants
 
 # The Team
- * Luke Reicherter - Project manager
+ * Luke Reicherter - Project Manager
  * Ethan Le - Scribe
  * Sam Aven - Implementer
  * Tayah Brown - Tester
- * Bryant Goseland - Configuration VC manager
+ * Bryant Goseland - Configuration VC Manager
  * Ethan Cook - Designer
  * Braden Chrisman - Analyst
 
