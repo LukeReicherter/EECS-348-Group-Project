@@ -46,6 +46,8 @@ bool tokenizer::tokenize() {
             if (neg_condition) {
                 // Adds a negaive sign to the parenthesis. Indicates that the number in the parenthesis will be negated
                 left_paren += "-";
+                // Inverts the current negative condition
+                neg_condition = !neg_condition;
             }
             // Adds the left parenthesis to the left_paren variable
             left_paren += expression[i];
