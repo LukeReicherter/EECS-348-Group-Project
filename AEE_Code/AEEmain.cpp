@@ -1,9 +1,20 @@
+#include "Tokenizer.h"
+#include "ParserandEvaluator.h"
 #include <iostream>
-#include <string>
 
 int main() {
-    std::string expression;
-    std::cout << "Enter an expression: ";
-    std::cin >> expression;
-    
+    while (true) {
+        string expr;
+        cout << "Enter an arithmetic expression: ";
+        getline(cin, expr);
+        tokenizer tk(expr);
+        if (tk.tokenize()) {
+            cout << "Tokens: ";
+            tk.print_tokens();
+            parser ps(tk.token_vector);
+            ps.parse();
+        } else {
+            cout << "Failed to tokenize the expression due to errors." << endl;
+        }
+    }
 }
