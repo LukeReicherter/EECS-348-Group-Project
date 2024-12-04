@@ -5,22 +5,26 @@
 #include <string>
 #include <vector>
 
-using namespace std;
-
-template <typename T>
-struct token {
-    T value;
-};
+using std::string;
+using std::vector;
+using std::cout;
+using std::endl;
+using std::cin;
 
 class tokenizer {
 public:
-    string expression;
-    vector< token<string> > token_vector;
+    // Stores the users expression
+    std::string expression;
+    // Will store the tokenized expression
+    vector<string> token_vector;
 
+    // Constructor
     tokenizer(const string& expr);
+    // Tokenizes the input, returns true if no errors are found
     bool tokenize();
-    void print_tokens();
-
+    // Prints the token vector
+    // Not needed, used for testing
+    //void print_tokens();
 };
 
-#endif // TOKENIZER_H
+#endif
