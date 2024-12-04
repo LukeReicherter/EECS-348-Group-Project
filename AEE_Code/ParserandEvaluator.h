@@ -33,4 +33,4 @@ private:
     double parseExpression();
 };
 
-#endif // PARSER_H
+#endif
