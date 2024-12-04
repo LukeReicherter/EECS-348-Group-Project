@@ -12,7 +12,7 @@ A versatile arithmetic evaluator in C++. The software will take arithmetic expre
 
 # Functionality
   * Expresssion Parsing
-  * Supports all operators like +(addition), -(Subtraction), *(Multiplication), /(Divsion), %(Modulus), **(Exponets)
+  * Supports all operators like +(addition), -(Subtraction), *(Multiplication), /(Divsion), %(Modulus), **(Exponents)
   * Handles Parantheses and standard order of operations (PEMDAS)
   * Numeric Constants recognizes and calculates numeric constants
 
