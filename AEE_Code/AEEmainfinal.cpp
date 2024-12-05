@@ -1,9 +1,29 @@
+/*
+Created: 11/11/2024
+Last Change: 12/05/2024
+Designed by Fancy Calculator Inc.
+EECS 348: Group Project
+Description: The following code will take a user input expression as a string and
+return a result as a double. If an invalid expression is entered, an error message 
+will print to screen. The user will be able to continue to enter expressions until 
+"END" is typed into the input.
+
+The current valid operands and operators are as follows:
+- Numbers (Including Decimals)
+- Unary operators (+ and -)
+- Parenthesis
+- Operators (**, *, /, %, +)
+
+IMPORTANT NOTE: - not included in operators because it is converted to + -some_operand
+if it is used as an operator. - is always considered unary
+Example: 10 - 10 is still a valid string, but will become 10 + -10 when tokenized
+*/
 #include "Tokenizer.h"
 #include "ParserandEvaluator.h"
 #include <iostream>
 #include <iomanip>
 
-#define PRECISION 5
+#define PRECISION 5 // Sets the precision of the result equal to 5
 
 int main() {
     // Loop that won't break until break statement
