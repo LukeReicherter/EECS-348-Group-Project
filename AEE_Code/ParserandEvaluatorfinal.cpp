@@ -1,3 +1,22 @@
+/*
+Created: 11/11/2024
+Last Change: 12/05/2024
+Designed by Fancy Calculator Inc.
+EECS 348: Group Project
+Description: The follwing code will take an input tokenized vector of strings and return the
+corresponing result of the expression. Each token will be interpreted by the parser through
+separate priority level functions.
+
+The current valid operands and operators are as follows:
+- Numbers (Including Decimals)
+- Unary operators (+ and -)
+- Parenthesis
+- Operators (**, *, /, %, +)
+
+IMPORTANT NOTE: - not included in operators because it is converted to + -some_operand
+if it is used as an operator. - is always considered unary
+Example: 10 - 10 is still a valid string, but will become 10 + -10 when tokenized
+*/
 #include "ParserandEvaluator.h"
 #include <cmath> // For pow()
 
