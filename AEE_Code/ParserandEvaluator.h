@@ -4,7 +4,7 @@ Last Change: 12/05/2024
 Designed by Fancy Calculator Inc.
 EECS 348: Group Project
 Description: The following code defines the parser class located in the
-ParserandEvaluator file. 
+ParserandEvaluator.cpp file. 
 */
 #ifndef PARSERANDEVALUATOR_H
 #define PARSERANDEVALUATOR_H
