@@ -23,7 +23,7 @@ Example: 10 - 10 is still a valid string, but will become 10 + -10 when tokenize
 #include <iostream>
 #include <iomanip>
 
-#define PRECISION 5 // Sets the precision of the result equal to 5
+#define PRECISION 7 // Sets the precision of the result equal to 7
 
 int main() {
     // Loop that won't break until break statement
