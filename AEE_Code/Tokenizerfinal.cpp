@@ -1,4 +1,22 @@
+/*
+Created: 11/11/2024
+Last Change: 12/05/2024
+Designed by Fancy Calculator Inc.
+EECS 348: Group Project
+Description: The follwing code will take an input string and return a tokenized vector of
+strings. Each index of the input string will be checked for valid characters, and then 
+added to the vector.
 
+The current valid operands and operators are as follows:
+- Numbers (Including Decimals)
+- Unary operators (+ and -)
+- Parenthesis
+- Operators (**, *, /, %, +)
+
+IMPORTANT NOTE: - not included in operators because it is converted to + -some_operand
+if it is used as an operator. - is always considered unary
+Example: 10 - 10 is still a valid string, but will become 10 + -10 when tokenized
+*/
 #include "Tokenizer.h"
 #include <cctype> // For isdigit
 
@@ -18,7 +36,7 @@ bool tokenizer::tokenize() {
             // Checks if the last token was a digit
             if (!token_vector.empty() && (isdigit(token_vector.back().back()))) {
                 // Displays an error message
-                cout << "Invalid Input Error" << endl;
+                cout << "Invalid Input Errora" << endl;
                 // Returns false to end the tokenizer
                 return false;
             }
@@ -47,7 +65,7 @@ bool tokenizer::tokenize() {
                     // Checks if a decimal has already been added
                     if (decimal_check) {
                         // Displays an error message
-                        cout << "Invalid Input Error" << endl;
+                        cout << "Invalid Input Errorb" << endl;
                         // Returns false to end the tokenizer
                         return false;
                     }
@@ -142,6 +160,18 @@ bool tokenizer::tokenize() {
             // Adds 1 to the current index
             i++;
         }
+        // Checks if char is an addition operator
+        else if (expression[i] == '+') {
+            // Checks if the last token is a number or a parenthesis
+            if (!token_vector.empty() && (isdigit(token_vector.back().back()) || token_vector.back() == ")")) {
+                // Initiates a string called plus and sets it equal to an addition operator
+                string plus = "+";
+                // Adds plus to the vector of tokens
+                token_vector.push_back(plus);
+            }
+            // Adds 1 to the current index
+            i++;
+        }
         // Checks if token vector is empty
         else if (token_vector.empty()) {
             // Displays an error message
@@ -187,25 +217,6 @@ bool tokenizer::tokenize() {
                 i++;
             }
             // Runs if the division operator is in an invalid position
-            else {
-                // Displays an error message
-                cout << "Invalid Input Error" << endl;
-                // Returns false to end the tokenizer
-                return false;
-            }
-        }
-        // Checks if char is an addition operator
-        else if (expression[i] == '+') {
-            // Checks if the last token is a number or a parenthesis
-            if (isdigit(token_vector.back().back()) || token_vector.back() == ")") {
-                // Initiates a string called plus and sets it equal to an addition operator
-                string plus = "+";
-                // Adds plus to the vector of tokens
-                token_vector.push_back(plus);
-                // Adds 1 to the current index
-                i++;
-            }
-            // Runs if the addition operator is in an invalid position
             else {
                 // Displays an error message
                 cout << "Invalid Input Error" << endl;
