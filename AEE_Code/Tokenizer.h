@@ -1,3 +1,11 @@
+/*
+Created: 11/11/2024
+Last Change: 12/05/2024
+Designed by Fancy Calculator Inc.
+EECS 348: Group Project
+Description: The following code defines the tokenizer class located in the
+Tokenizer.cpp file. 
+*/
 #ifndef TOKENIZER_H
 #define TOKENIZER_H
 
