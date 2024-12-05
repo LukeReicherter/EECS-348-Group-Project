@@ -1,0 +1,29 @@
+﻿MEETING NOTES
+
+
+Team Meeting 11.07
+
+
+WHEN: Thursday, November 7th @ 6:00 p.m.
+PURPOSE: Working on, and hopefully Finishing, the Software Architecture Document.
+ATTENDANCE: (four out of seven members) Ethan Le, Luke Reicherter, Ethan Cook, and Tayah Brown
+
+
+Sam Aven, Braden Chrisman, and Bryant Goseland are all unavailable due to similar reasons for all other Thursday meetings.
+
+
+TEAM NAME:
+Fancy Calculator Incorporated
+
+
+DETAILS:
+
+
+1. Ethan Le arrives first at 5:10 p.m. and waits for the others.
+2. Ethan Cook arrives next at 5:32 p.m.
+3. Luke Reicherter arrives next at 5:40 p.m. and the three agree to begin working on the document before the aforementioned 6 p.m. time.
+4. Today, we worked on the Overview, Interface Description, Architecturally Significant Design Modules or Packages, and Qualities.
+5. Document History, Date, and Version all updated to match today’s meeting.
+6. Tayah Brown arrives at 6:30 p.m.
+7. We worked to finish the document by today, knowing that there were only a few sections left to the document.
+8. We agree to end the meeting at 7:30 p.m.
