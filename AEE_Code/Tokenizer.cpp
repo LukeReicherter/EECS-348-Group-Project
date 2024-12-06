@@ -18,7 +18,7 @@ if it is used as an operator. - is always considered unary
 Example: 10 - 10 is still a valid string, but will become 10 + -10 when tokenized
 */
 #include "Tokenizer.h"
-#include <cctype> // For isdigit
+#include <cctype> // For isdigit()
 
 // Constructor
 tokenizer::tokenizer(const string& expr) : expression(expr) {}
