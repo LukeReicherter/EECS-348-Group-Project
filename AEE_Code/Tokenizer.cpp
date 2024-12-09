@@ -18,7 +18,7 @@ if it is used as an operator. - is always considered unary
 Example: 10 - 10 is still a valid string, but will become 10 + -10 when tokenized
 */
 #include "Tokenizer.h"
-#include <cctype> // For isdigit()
+#include <cctype> // For isdigit
 
 // Constructor
 tokenizer::tokenizer(const string& expr) : expression(expr) {}
@@ -36,7 +36,7 @@ bool tokenizer::tokenize() {
             // Checks if the last token was a digit
             if (!token_vector.empty() && (isdigit(token_vector.back().back()))) {
                 // Displays an error message
-                cout << "Invalid Input Errora" << endl;
+                cout << "Invalid Input Error" << endl;
                 // Returns false to end the tokenizer
                 return false;
             }
@@ -65,16 +65,24 @@ bool tokenizer::tokenize() {
                     // Checks if a decimal has already been added
                     if (decimal_check) {
                         // Displays an error message
-                        cout << "Invalid Input Errorb" << endl;
+                        cout << "Invalid Input Error" << endl;
                         // Returns false to end the tokenizer
                         return false;
                     }
                     // Inverts the current decimal condition
                     decimal_check = !decimal_check;
                 }
+                // Adds the value at current index to num
                 num += expression[i];
                 // Adds 1 to the current index
                 i++;
+            }
+            // Checks if num is equal to a decimal
+            if (num == ".") {
+                // Displays an error message
+                cout << "Invalid Input Error" << endl;
+                // Returns false to end the program
+                return false;
             }
             // Checks if a the current number has a decimal as the last char in the string
             if (num.back() == '.') {
