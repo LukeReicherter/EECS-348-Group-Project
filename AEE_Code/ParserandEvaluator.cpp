@@ -141,7 +141,9 @@ double parser::parseLowPrior() {
             else if (token == "/") {
                 // Checks if the denominator is a 0
                 if (nextValue == 0) {
-                    // Throws a divide by zero error
+                    // Prints the error type to screen
+                    std::cout << "Divide by zero error" << std::endl;
+                    // Throws divide by zero error
                     throw std::runtime_error("Divide by zero error");
                 }
                 // Divides the result by the next value
@@ -151,8 +153,10 @@ double parser::parseLowPrior() {
             else if (token == "%") {
                 // Checks to see if "b" is a 0
                 if (nextValue == 0) {
+                    // Prints the error type to screen
+                    std::cout << "Mod by zero error" << std::endl;
                     // Throws a mod by 0 error
-                    throw std::runtime_error("Cannot mod by zero");
+                    throw std::runtime_error("Mod by zero error");
                 }
                 // Sets result equal to result modded by the nextValue
                 result = std::fmod(result, nextValue);
