@@ -78,7 +78,7 @@ bool tokenizer::tokenize() {
                 i++;
             }
             // Checks if num is equal to a decimal
-            if (num == ".") {
+            if (num == "." || num == "-.") {
                 // Displays an error message
                 cout << "Invalid Input Error" << endl;
                 // Returns false to end the program
