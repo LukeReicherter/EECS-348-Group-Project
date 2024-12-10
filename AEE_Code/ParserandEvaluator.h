@@ -9,6 +9,7 @@ ParserandEvaluator.cpp file.
 #ifndef PARSERANDEVALUATOR_H
 #define PARSERANDEVALUATOR_H
 
+#include <iostream>
 #include <vector>
 #include <string>
 #include <stdexcept>
