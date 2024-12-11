@@ -1,0 +1,23 @@
+﻿MEETING NOTES
+
+
+Team Meeting 10.04
+
+
+WHEN: Wednesday, December 4th @ 6:00 p.m.
+PURPOSE: Bug testing the implemented code
+ATTENDANCE: (two out of seven members) Luke Reicherter, Ethan Cook
+
+
+TEAM NAME:
+Fancy Calculator Incorporated
+
+
+DETAILS:
+
+
+1. Ethan Cook and Luke Reicherter arrive at 6:00 p.m.
+2. No one else shows up :(
+3. We troubleshoot the code and iron out final bugs
+4. We begin test cases.
+5. We end the meeting after fixing the obvious bugs at around ~6:30 p.m.
